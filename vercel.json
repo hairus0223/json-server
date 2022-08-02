@@ -1,15 +1,16 @@
 {
     "version": 2,
+    "name": "fake-server",
     "builds": [
         {
-            "src": "./server.js",
+            "src": "server.js",
             "use": "@vercel/node"
         }
     ],
     "routes": [
         {
-            "src": "./server.js",
-            "dest": "/"
+            "src": "/(.*)",
+            "dest": "/server.js"
         }
     ]
 }
