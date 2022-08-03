@@ -7,4 +7,8 @@ const port = process.env.PORT || 4000; // <== You can change the port
 server.use(middlewares);
 server.use(router);
 
-server.listen(port);
+// server.listen(port);
+
+server.listen(port, () => {
+  console.log(`Server running at port ${port}`);
+});
