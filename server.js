@@ -1,10 +1,13 @@
 const jsonServer = require("json-server");
+const express = require("express");
+const app = express();
 const server = jsonServer.create();
-const router = jsonServer.router("db.json"); // <== Will be created later
+const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
-const port = process.env.PORT || 4000; // <== You can change the port
 
-server.use(middlewares);
-server.use(router);
+app.use(middlewares);
+app.use(router);
 
-server.listen(port);
+app.listen(process.env.PORT || 3000);
+
+module.exports = app;
