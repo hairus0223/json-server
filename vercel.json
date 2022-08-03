@@ -1,6 +1,5 @@
 {
     "version": 2,
-    "name": "fake-server",
     "builds": [
         {
             "src": "./server.js",
