@@ -1,4 +1,23 @@
 {
     "legal": [],
-    "fkb": []
+    "fkb": [
+        {
+            "no_faktur": "MFWAA15ATLJOODO30",
+            "no_rangka": "MFWAA15ATLJOODO30",
+            "order_id": "PO202205-0016",
+            "last_update": "2022-07-28T03:45:00.316527Z"
+        },
+        {
+            "no_faktur": "MFWAA15ATLJOODO20",
+            "no_rangka": "MFWAA15ATLJOODO20",
+            "order_id": "PO202205-0017",
+            "last_update": "2022-08-28T03:45:00.316527Z"
+        },
+        {
+            "no_faktur": "MFWAA15ATLJOODO21",
+            "no_rangka": "MFWAA15ATLJOODO21",
+            "order_id": "PO202205-0018",
+            "last_update": "2022-09-28T03:45:00.316527Z"
+        }
+    ]
 }
