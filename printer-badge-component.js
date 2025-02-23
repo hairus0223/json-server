@@ -310,7 +310,7 @@ class PrintBadgeComponent extends HTMLElement {
       this.attendee = attendee;
       this.updateTemplate();
       setTimeout(() => {
-        window.print();
+        // window.print();
         const categorySplit =
           this.attendee.S_category.toUpperCase().split("PASS")[0];
 
